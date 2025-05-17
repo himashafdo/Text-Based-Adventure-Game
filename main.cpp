@@ -7,9 +7,9 @@ void intro() {
     cout << "Welcome to the Text Adventure Game!\n";
     cout << "You find yourself in a dark forest.\n";
     cout << "What do you want to do?\n";
-    cout << "1. Go north\n";
-    cout << "2. Go south\n";
-    cout << "3. Look around\n";
+    cout << "1. Go forward\n";
+    cout << "2. Go left\n";
+    cout << "3. Look right\n";
 }
 
 int main() {
@@ -22,13 +22,13 @@ int main() {
 
         switch (choice) {
             case 1:
-                cout << "You walk north and find a river. The adventure continues...\n";
+                cout << "You walked forward and find a river. The adventure continues...\n";
                 break;
             case 2:
-                cout << "You head south and encounter a wild animal!\n";
+                cout << "You went left and encounter a wild bear!!\nYou are dead :0\n";
                 break;
             case 3:
-                cout << "It's dark and quiet. You hear distant howls.\n";
+                cout << "It's dark and quiet. You hear distant howls.\nWhat next?\n";
                 break;
             default:
                 cout << "Invalid choice. Try again.\n";
